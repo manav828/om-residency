@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project-3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>project</title>
+</head>
+
+<body>
+    <div id="conteiner-1">
+        <section class="header">
+            <nav>
+                <!-- <input type="checkbox" id="check"> -->
+                <!-- <label for="check" class="chakebtn">
+                <i class="fas fa-bars"></i>
+            </label> -->
+                <img src="img/logo-1.png" class="logo">
+                <div class="navbar" id="navbar">
+                    <img src="img/close.png" class="close fs" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="" onclick="showhome()">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#3d" onclick="showform()">3D VIEW</a></li>
+                        <li><a href="#plans">PLANS</a></li>
+                        <li><a href="#contect">CONTECT US</a></li>
+                    </ul>
+                </div>
+                <img src="img/menu.png" class="menu fs" onclick="showMenu()">
+            </nav>
+
+            <div class="textbox">
+                <h1>OVER PROJECT</h1>
+                <p>Over first project near laxmipura rode,Lorem, ipsum consectetur adipisicing elit. Id voluptates,
+                    eligendi
+                    <br>sapiente deleniti pariatur rerum iure liquid.
+                </p>
+                <a href="" class="btn">visit us to know more</a>
+            </div>
+        </section>
+
+        <div class="conteiner" id="conteiner">
+
+            <section class="about" id="about">
+                <h1>ABOT US</h1>
+                <div class="row">
+                    <img src="img/logo-1.png" class="imgs">
+                    <div class="us">
+                        <p>Keya Buildcon, is one of the leading Vadodara, Gujarat (India) based construction company
+                            builds Parks, Townships, Commercial Centers, Malls and Multiplexes in Gujarat.. We are
+                            committed for becoming best partner of construction industries. we provide flexible
+                            construction services that addresses the demands and needs of the Public and Private
+                            Sectors. Since our foundation, we have developed several projects based upon time to time
+                            requirement.</p>
+
+                        <p> We have a National construction capability based on established Regional strengths that
+                            enables us to get close to our customers and our supply chain. Our network of regional
+                            offices covering whole of the Gujarat means we are an integral part of the communities where
+                            we work.</p>
+
+                        <P>Mr. Anil Jiyani & Mr. Sureshbhai Satashiya, founder and chairmen of the company has done his
+                            Masters with Civil Engineering and has expertise in structure designing and planning having
+                            hugh working experiance of 15+ years in construction line. During these years, both have
+                            worked with many construction sites.</P>
+
+                        <p>Vision : By keeping positive approach & ethics, supply excellent & quality constructions to
+                            customers as committed.</p>
+
+                        <p>Mission : Company wants to keep continue holding its share in the growth of current
+                            infrastructure of the country.</p>
+
+                        <p> Motto : We Build Trust.</p>
+
+                        <p> Value : Simplicity, Affordability, Innovation, Quality, Commitments, Customer Satisfaction,
+                            Social Responsiveness</p>
+                    </div>
+                    
+
+                </div>
+            </section>
+
+            <section class="sec2" id="3d">
+                <h1>SITE 3D VIEW</h1>
+                <div class="row">
+                    <div class="imgs">
+                        <img src="img/4.jpg" onclick="openimg(this.src)">
+                        <h2>RODE VIEW</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consequuntur assumenda
+                            incidunt
+                            consequatur qui voluptate facere illo, debitis culpa ut.</p>
+                    </div>
+                    <div class="imgs">
+                        <img src="img/2.jpg" onclick="openimg(this.src)">
+                        <h2>RODE VIEW</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consequuntur assumenda
+                            incidunt
+                            consequatur qui voluptate facere illo, debitis culpa ut.</p>
+                    </div>
+                    <div class="imgs">
+                        <img src="img/3.jpg" onclick="openimg(this.src)">
+                        <h2>RODE VIEW</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consequuntur assumenda
+                            incidunt
+                            consequatur qui voluptate facere illo, debitis culpa ut.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="plan" id="plans">
+                <div class="heading">
+                    <h2>SITE PLANS</h2>
+                    <div class="button">
+                        <button class="btn btn1" id="bhk2" onclick="on2bhk()" >2BHK</button>
+                        <button class="btn btn2"  id="bhk3" onclick="on3bhk()">3BHK</button>
+                        <button class="btn btn3" id="bhk4" onclick="on4bhk()">4BHK</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="planimg show" id="planing1">
+                        <div class="text">
+                            <img src="img/5.jpg" onclick="openimg(this.src)">
+                            <h2>this is 2 bhk plan</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut distinctio tempora,
+                                magni libero, animi voluptas illum, odio nobis error assumenda provident? Suscipit
+                                tenetur temporibus exercitationem laborum atque odio odit.</p>
+                        </div>
+                        <div class="text">
+                            <img src="img/6.jpg" onclick="openimg(this.src)">
+                            <h2>this is 2 bhk plan</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut distinctio tempora,
+                                magni libero, animi voluptas illum, odio nobis error assumenda provident? Suscipit
+                                tenetur temporibus exercitationem laborum atque odio odit.</p>
+                        </div>
+                    </div>
+                    <div class="planimg hid" id="planing2">
+
+                        <div class="text">
+                            <img src="img/1-min.jpg" onclick="openimg(this.src)">
+
+                            <h2>this is 2 bhk plan</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut distinctio tempora,
+                                magni libero, animi voluptas illum, odio nobis error assumenda provident? Suscipit
+                                tenetur temporibus exercitationem laborum atque odio odit.</p>
+                        </div>
+                        <div class="text">
+                            <img src="img/6.jpg" onclick="openimg(this.src)">
+                            <h2>this is 2 bhk plan</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut distinctio tempora,
+                                magni libero, animi voluptas illum, odio nobis error assumenda provident? Suscipit
+                                tenetur temporibus exercitationem laborum atque odio odit.</p>
+                        </div>
+                    </div>
+                    <div class="planimg hid" id="planing3">
+
+                        <div class="text">
+                            <img src="img/2-min.jpg" onclick="openimg(this.src)">
+                            <h2>this is 2 bhk plan</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut distinctio tempora,
+                                magni libero, animi voluptas illum, odio nobis error assumenda provident? Suscipit
+                                tenetur temporibus exercitationem laborum atque odio odit.</p>
+                        </div>
+                        <div class="text">
+                            <img src="img/6.jpg" onclick="openimg(this.src)">
+                            <h2>this is 2 bhk plan</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut distinctio tempora,
+                                magni libero, animi voluptas illum, odio nobis error assumenda provident? Suscipit
+                                tenetur temporibus exercitationem laborum atque odio odit.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <div class="full-img" id="fullimgbox">
+                <img src="img/1.jpg" id="fullimg">
+                <span onclick="colseimg()">X</span>
+            </div>
+
+
+        </div>
+
+        <section class="people" id="contect">
+            <h2 class="h2">FOUNDER</h2>
+            <div class="row ">
+                <div class="card imgs">
+                    <img src="img/p2.jpg" onclick="openimg(this.src)">
+                    <h2>SURESHBHAI SATASIYA</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nemo aliquam, saepe cupiditate
+                        commodi ut. Ex iste ad quo atque!</P><br>
+                    <h3>PHONE NUMBER : 0123456789</h3>
+                </div>
+                <div class="card imgs">
+                    <img src="img/p1.jpg" onclick="openimg(this.src)">
+
+                    <h2>ANIL JIYANI</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nemo aliquam, saepe cupiditate
+                        commodi ut. Ex iste ad quo atque!</P><br>
+                    <h3>PHONE NUMBER : 0123456789</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- THIS IS FORM -->
+        <section class="form">
+            <h2>FILL THE FORM</h2>
+            <div id="conteiner-2 " class="conteiner-2">
+                <form action="" method="get">
+                    <!-- <h1 class="main-heading">Payment Form</h1>
+            <hr>
+            <p>Required Fileds are followed by *</p>
+            <h2>User Information</h2> -->
+                    <p>Name: *<input type="text" name="name" placeholder="Manav" required></p>
+
+                    <p>
+
+                    <p class="g">gender :
+                        Male<input type="radio" name="gender" id="" required>
+                        female<input type="radio" name="gender" id="" required>
+                        Other<input type="radio" name="gender" id="" required>
+                    </p>
+                    </p>
+                    <p>Address<textarea name="address" cols="30 " rows="5" placeholder="Address"></textarea></p>
+                    <p>Email *<input type="email" name="email" id="email" placeholder="manav12@gmail.com" required></p>
+                    <p>pincode<input type="number" name="pincode" id="pincode" placeholder="123456"></p>
+                    <!-- <h2>Payment Information
+            </h2>
+            <p>Card type *
+                <select name="card type" id="card type" required>
+                    <option>--select a card type--</option>
+                    <option value="visa">VISA</option>
+                    <option value="visa">Ruppy</option>
+                    <option value="visa"> Mastercard</option>
+                </select>
+            </p>
+            <p>
+                Card number*<input type="number" name="card number" id="card number" placeholder="1111 2222 3333"
+                required>
+            </p>
+            <p>
+                Expriration Date:*<input type="date" name="exp data" id="exp data" required>
+            </p>
+            <p>CVV *<input type="password" required> -->
+                    <br><br><br>
+                    <input type="submit" value="Pay now" ali="center ">
+                </form>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+
+        // FUNCTION FOR MEDIA CLOSE AND OPEN NAVBAR
+
+        let navbar = document.getElementById("navbar");
+        function showMenu() {
+            navbar.style.display = "block";
+            navbar.style.right = "0px";
+        }
+        function hideMenu() {
+            navbar.style.display = "none";
+            navbar.style.right = "-200px";
+        }
+
+        // FUNCTION FOR 2BHK,3BHK,4BHK BUTTON 
+
+        let planing1 = document.getElementById("planing1");
+        let planing2 = document.getElementById("planing2");
+        let planing3 = document.getElementById("planing3");
+        function on2bhk() {
+            planing2.style.display = 'none';
+            planing3.style.display = 'none';
+            planing1.style.display = 'flex';
+            
+        }
+        function on3bhk() {
+            planing1.style.display = 'none';
+            planing2.style.display = 'flex';
+            planing3.style.display = 'none';
+        }
+        function on4bhk() {
+            planing2.style.display = 'none';
+            planing3.style.display = 'flex';
+            // planing3.style.margin = 'auto';
+            planing1.style.display = 'none';
+        }
+
+
+
+        // FUNCTION FOR ONCLICK IMG OPEN IN FULL SCREEN 
+
+        let fullimgbox = document.getElementById("fullimgbox");
+        let fullimg = document.getElementById("fullimg");
+
+        function openimg(pic) {
+            fullimgbox.style.display = "flex";
+            fullimg.src = pic;
+        }
+
+        function colseimg() {
+            fullimgbox.style.display = "none";
+
+        }
+
+
+
+        // FOR DISPLAY HOME AND FORM
+
+        // let conteiner = document.getElementById("conteiner");
+        // let conteiner2 = document.getElementById("conteiner-2");
+
+        // function showform() {
+        //     conteiner.style.display = "none";
+        //     conteiner2.style.display = "block";
+        // }
+        // function showhome() {
+        //     conteiner.style.display = "block";
+        //     conteiner2.style.display = "none";
+        // }
+
+    </script>
+</body>
+
+</html>
