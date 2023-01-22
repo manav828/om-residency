@@ -228,6 +228,9 @@ a{
     width: 90%;
     margin:  auto ;
 }
+.us p{
+    font-size: 21px;
+}
 .about h1{
     width: 21%;
     margin: 34px auto;
